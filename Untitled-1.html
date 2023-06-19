@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Neo Historia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .background-image {
+            background-image: url(https://neohistoria.net/wp-content/uploads/2022/10/Header-website.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            height: 93vh;
+            width: 100%;
+        }
+        
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100%;
+            color: #fff;
+        }
+        
+        .nav-wrapper {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .navbar-toggler {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image">
+        <header class="header-content">
+            <h1>Komunitas Neo Historia</h1>
+        </header>
+    </div>
+    <div class="nav-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <!-- <a class="navbar-brand" href="#">Menu</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>Menu
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tentang Kami</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pendaftaran Anggota</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Peraturan dan Tata Tertib</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ - Frequently Ask Question</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Kegiatan Komunitas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container text-left mt-5 mb-5 p-5">
+        <div class="row">
+            <div class="col-sm-4 fs-5"><h3>KOMUNITAS NEO HISTORIA</h3></div>
+            <div class="col-sm-8 fs-2">
+                <p class="mb-5"> Neo Historia menyediakan wadah untuk mengembangkan minat terhadap sesama penggiat dan penikmat sejarah lokal maupun mancanegara.</p>
+                <p class="mb-5">Komunitas ini menghubungkan dan mengkolaborasikan sesama Neohistorian melalui beragam aktivitas menarik.</p>
+                <div>
+                   <button type="button" class="btn btn-dark rounded-5 pt-2 pb-2 pl-3 pr-3 fw-bold">  Pendaftaran Anggota  </button>
+                </div>
+             </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
